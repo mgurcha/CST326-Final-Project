@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
     {
         if (triggering)
         {
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKey("e"))
             {
                 flowchart.ExecuteBlock("NPC Bob");
             }
